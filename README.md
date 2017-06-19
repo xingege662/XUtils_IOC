@@ -1,0 +1,2 @@
+# XutilsInject-IOC
+Xutils源码中，使用了反射的这种方式，将findViewByID转交给第三方去注入，虽然使用反射会消耗一点点的性能，但是这种方式很大程度带上解脱了我们的双手，后来出来的ButterKnife和Dagger都使用了另一种方式将findViewByID的方式交给第三方注入，这种方式会在以后提供他完成的思想，向这些写开源框架的大牛们致敬。
